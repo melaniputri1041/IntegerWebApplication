@@ -1,0 +1,11 @@
+﻿@model List<Student>;
+
+<p>Ini Dari controller student</p>
+
+@foreach(var data in Model){
+    <p>id : @data.id</p>
+    <p>Nama : @data.name</p>
+    <p>addres : @data.addres</p>
+    <p>phonenumber : @data.phonenumber</p>
+}
+        
