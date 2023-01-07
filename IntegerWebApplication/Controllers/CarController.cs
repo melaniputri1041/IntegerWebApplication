@@ -87,12 +87,12 @@ namespace IntegerWebApplication.Controllers
             ViewBag.cars = car;*/
 
             //soal5
-            /*var car = cars.Where(x => x.varian == "City");
-            ViewBag.cars = car;*/
+            var car = cars.Where(x => x.varian == "City");
+            ViewBag.cars = car;
 
             //soal6
-            var car = cars.Where(x => x.Type == "sedan");
-            ViewBag.cars = car;
+            /*var car = cars.Where(x => x.Type == "sedan");
+            ViewBag.cars = car;*/
 
             return View();
 
